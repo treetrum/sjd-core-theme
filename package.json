@@ -1,0 +1,19 @@
+{
+  "name": "sjd-core",
+  "version": "1.0.0",
+  "description": "Boilerplate theme for all new WP Themes made by Sam Davis",
+  "main": "style.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://treetrum@github.com/treetrum/sjd-core-theme.git"
+  },
+  "author": "Sam Davis <sam@sjd.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/treetrum/sjd-core-theme/issues"
+  },
+  "homepage": "https://github.com/treetrum/sjd-core-theme#readme"
+}
