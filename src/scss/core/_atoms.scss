@@ -1,0 +1,13 @@
+/** Cover Image (Background) */
+%cover-image {
+    background-size: cover;
+    background-position: center;
+}
+
+/** Default content padding */
+%section-padding {
+    padding: $spacingUnit*2 0;
+}
+    %section-padding-double {
+        padding: $spacingUnit*4 0;
+    }
