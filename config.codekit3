@@ -12,95 +12,49 @@
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.gitignore",
+		"oAP": "\/dist\/.gitignore",
 		"oF": 1
 		},
-	"\/build\/node_modules": {
+	"\/dist": {
 		"ft": 65536,
-		"oA": 2,
-		"oAP": "\/build\/build\/node_modules",
-		"oF": 0
-		},
-	"\/dist\/css\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/css\/main-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/dist\/css\/main.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/css\/main.css.map",
-		"oF": 0
-		},
-	"\/dist\/js\/app-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/min\/app-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/dist\/js\/app-min.js.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/js\/app-min.js.map",
-		"oF": 0
-		},
-	"\/dist\/js\/app.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/min\/app-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/dist\/js\/app.js.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/js\/app.js.map",
+		"oA": 1,
+		"oAP": "\/dist\/dist",
 		"oF": 0
 		},
 	"\/footer.php": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/footer.php",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/dist\/footer.php",
+		"oF": 1
 		},
 	"\/functions.php": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/functions.php",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/dist\/functions.php",
+		"oF": 1
 		},
 	"\/header.php": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/header.php",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/dist\/header.php",
+		"oF": 1
 		},
 	"\/index.php": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index.php",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/dist\/index.php",
+		"oF": 1
 		},
 	"\/node_modules": {
 		"ft": 65536,
 		"oA": 2,
-		"oAP": "\/build\/node_modules",
-		"oF": 0
+		"oAP": "\/node_modules",
+		"oF": 3
 		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/package-min.json",
+		"oAP": "\/dist\/package-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -113,8 +67,8 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/README.md",
+		"oA": 1,
+		"oAP": "\/dist\/README.html",
 		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
@@ -127,7 +81,7 @@
 		"ft": 64,
 		"mi": 0,
 		"oA": 0,
-		"oAP": "\/src\/js\/app.js",
+		"oAP": "\/dist\/js\/app.js",
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
@@ -136,7 +90,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/src\/js\/modules\/min\/_onload-min.js",
+		"oAP": "\/dist\/js\/modules\/min\/_onload-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -149,7 +103,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/scss\/css\/_app.css",
+		"oAP": "\/dist\/scss\/css\/_app.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -162,7 +116,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/scss\/css\/_atoms.css",
+		"oAP": "\/dist\/scss\/css\/_atoms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -175,7 +129,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/scss\/css\/_buttons.css",
+		"oAP": "\/dist\/scss\/css\/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -188,7 +142,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/scss\/css\/_mixins.css",
+		"oAP": "\/dist\/scss\/css\/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -201,7 +155,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/scss\/css\/_settings.css",
+		"oAP": "\/dist\/scss\/css\/_settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -214,7 +168,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/scss\/css\/_typography.css",
+		"oAP": "\/dist\/scss\/css\/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -227,7 +181,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/scss\/css\/_variables.css",
+		"oAP": "\/dist\/scss\/css\/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -240,22 +194,22 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/scss\/css\/_wordpress.css",
+		"oAP": "\/dist\/scss\/css\/_wordpress.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/src\/scss\/main.scss": {
-		"aP": 0,
-		"bl": 0,
+		"aP": 1,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/dist\/css\/main.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/style-min.css": {
@@ -263,8 +217,8 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/style-min-min.css",
+		"oA": 1,
+		"oAP": "\/dist\/style-min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -273,9 +227,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/style-min.css",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/dist\/style-min.css",
+		"oF": 1,
 		"oS": 0
 		}
 	},
@@ -296,7 +250,8 @@
 	"creationDate": 511052605,
 	"displayValue": "sjd-core",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_magenta"
+	"iconImageName": "brackets_magenta",
+	"lastBuiltDate": 511054162
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -551,7 +506,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"buildFolderActive": 0,
+	"buildFolderActive": 1,
 	"buildFolderName": "dist",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -2396,7 +2351,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/dist"
 	},
 "settingsFileVersion": "3"
 }
