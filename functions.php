@@ -10,7 +10,7 @@ function sjd_enqueue_scripts_and_styles() {
 
 	// Use our own version of jQuery
     wp_deregister_script( 'jquery' );
-    wp_enqueue_script( 'jquery', get_template_directory_uri() . '/bower_components/jquery/dist/jquery.min.js', null, null, false );
+    wp_enqueue_script( 'jquery', get_template_directory_uri() . '/node_modules/jquery/dist/jquery.min.js', null, null, false );
 
     // User script/s
     wp_enqueue_script( 'app', get_template_directory_uri() . '/dist/js/app-min.js', null, null, true );

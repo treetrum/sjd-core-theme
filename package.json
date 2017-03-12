@@ -4,7 +4,12 @@
   "description": "Boilerplate theme for all new WP Themes made by Sam Davis",
   "main": "style.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild:scss": "rimraf dist/css",
+    "prebuild:js": "rimraf dist/js && mkdir -p dist/js",
+    "build": "npm run build:js && npm run build:scss",
+    "build:js": "browserify src/js/app.js -t [ babelify --presets [ es2015 react ] --sourceMaps true  ] -d | exorcist dist/js/app.js.map > dist/js/app.js && uglifyjs --compress warnings=false --mangle --in-source-map dist/js/app.js.map --source-map-url app-min.js.map --source-map dist/js/app-min.js.map -- dist/js/app.js > dist/js/app-min.js",
+    "build:scss": "node-sass --output-style compressed src/scss/main.scss -o dist/css/ --include-path='node_modules/foundation-sites/scss/' --include-path='node_modules/motion-ui/' --source-map true"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,19 @@
   "bugs": {
     "url": "https://github.com/treetrum/sjd-core-theme/issues"
   },
-  "homepage": "https://github.com/treetrum/sjd-core-theme#readme"
+  "homepage": "https://github.com/treetrum/sjd-core-theme#readme",
+  "dependencies": {
+    "foundation-sites": "^6.3.1",
+    "jquery": "^3.1.1",
+    "motion-ui": "^1.2.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.1.0",
+    "node-sass": "^4.5.0",
+    "rimraf": "^2.6.1",
+    "uglify-js": "^2.8.12"
+  }
 }
