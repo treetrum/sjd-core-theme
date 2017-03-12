@@ -27,52 +27,6 @@
 		"oAP": "\/build\/build\/node_modules",
 		"oF": 0
 		},
-	"\/dist\/css\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/css\/main-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/dist\/css\/main.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/css\/main.css.map",
-		"oF": 0
-		},
-	"\/dist\/js\/app-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/min\/app-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/dist\/js\/app-min.js.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/js\/app-min.js.map",
-		"oF": 0
-		},
-	"\/dist\/js\/app.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dist\/js\/min\/app-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/dist\/js\/app.js.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/js\/app.js.map",
-		"oF": 0
-		},
 	"\/footer.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -111,12 +65,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/README.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/README.html",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -125,9 +73,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/README.html",
-		"oF": 0,
+		"oA": 2,
+		"oAP": "\/README.md",
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
