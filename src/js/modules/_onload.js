@@ -1,6 +1,9 @@
 import foundation from 'foundation-sites';
 
-function onload() {
+// Export an empty object...
+export default onload = {};
+
+// Actual onload functionality
 $(function() {
 
     /*
@@ -11,6 +14,3 @@ $(function() {
     $(document).foundation();
 
 });
-}
-
-export default onload();
