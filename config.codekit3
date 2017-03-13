@@ -51,6 +51,12 @@
 		"oAP": "\/node_modules",
 		"oF": 3
 		},
+	"\/npm-debug.log": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/npm-debug.log",
+		"oF": 0
+		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -81,7 +87,7 @@
 		"ft": 64,
 		"mi": 0,
 		"oA": 0,
-		"oAP": "\/dist\/js\/app.js",
+		"oAP": "\/src\/js\/app.js",
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
@@ -212,16 +218,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/style-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/dist\/style-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -250,8 +246,8 @@
 	"creationDate": 511052605,
 	"displayValue": "sjd-core",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_magenta",
-	"lastBuiltDate": 511054162
+	"iconImageName": "meme-obama",
+	"lastBuiltDate": 511135027
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
