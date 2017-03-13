@@ -8,8 +8,13 @@
     "prebuild:scss": "rimraf dist/css",
     "prebuild:js": "rimraf dist/js && mkdir -p dist/js",
     "build": "npm run build:js && npm run build:scss",
-    "build:js": "browserify src/js/app.js -t [ babelify --presets [ es2015 react ] --sourceMaps true  ] -d | exorcist dist/js/app.js.map > dist/js/app.js && uglifyjs --compress warnings=false --mangle --in-source-map dist/js/app.js.map --source-map-url app-min.js.map --source-map dist/js/app-min.js.map -- dist/js/app.js > dist/js/app-min.js",
-    "build:scss": "node-sass --output-style compressed src/scss/main.scss -o dist/css/ --include-path='node_modules/foundation-sites/scss/' --include-path='node_modules/motion-ui/' --source-map true"
+    "build:scss": "node-sass --output-style compressed src/scss/main.scss -o dist/css/ --include-path='node_modules/foundation-sites/scss/' --include-path='node_modules/motion-ui/' --source-map true",
+    "build:js": "npm run bundle:js && npm run minify:js",
+    "bundle:js": "browserify src/js/app.js -t [ babelify --presets [ es2015 react ] --sourceMaps true  ] -d | exorcist dist/js/app.js.map > dist/js/app.js",
+    "minify:js": "uglifyjs --compress warnings=false --mangle --in-source-map dist/js/app.js.map --source-map-url app-min.js.map --source-map dist/js/app-min.js.map -- dist/js/app.js > dist/js/app-min.js && rm dist/js/app.js && rm dist/js/app.js.map",
+    "watch:js": "watch 'npm run build:js' src/js",
+    "watch:scss": "watch 'npm run build:scss' src/scss",
+    "watch": "parallelshell 'npm run watch:scss' 'npm run watch:js'"
   },
   "repository": {
     "type": "git",
@@ -32,7 +37,9 @@
     "babelify": "^7.3.0",
     "browserify": "^14.1.0",
     "node-sass": "^4.5.0",
+    "parallelshell": "^2.0.0",
     "rimraf": "^2.6.1",
-    "uglify-js": "^2.8.12"
+    "uglify-js": "^2.8.12",
+    "watch": "^1.0.2"
   }
 }
