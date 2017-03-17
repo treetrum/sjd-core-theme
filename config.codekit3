@@ -7,7 +7,7 @@
 		"uuidString": "BA9313B4-D33D-4727-BF29-F2C5DBC27A10"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25704",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -51,12 +51,6 @@
 		"oAP": "\/node_modules",
 		"oF": 3
 		},
-	"\/npm-debug.log": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/npm-debug.log",
-		"oF": 0
-		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -88,7 +82,7 @@
 		"mi": 0,
 		"oA": 0,
 		"oAP": "\/src\/js\/app.js",
-		"oF": 2,
+		"oF": 3,
 		"sC": 3,
 		"tS": 0
 		},
@@ -227,11 +221,20 @@
 		"oAP": "\/dist\/style-min.css",
 		"oF": 1,
 		"oS": 0
+		},
+	"\/webpack.config.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/webpack.config.js",
+		"oF": 3,
+		"sC": 0,
+		"tS": 0
 		}
 	},
 "hooks": [
 	{
-		"enabled": 1,
+		"enabled": 0,
 		"name": "Hook #1",
 		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGentYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QHgcIDxUdJygqMTU6Oz5CRktMT1VZXWJna25vcnN1d1UkbnVsbNMJCgsMDQ5fEBdOU0NvbXBvdW5kUHJlZGljYXRlVHlwZV8QD05TU3VicHJlZGljYXRlc1YkY2xhc3MQAYACgB3SEAsRFFpOUy5vYmplY3RzohITgAOAFIAc1AsWFxgZGhscXxARTlNSaWdodEV4cHJlc3Npb25fEBBOU0xlZnRFeHByZXNzaW9uXxATTlNQcmVkaWNhdGVPcGVyYXRvcoATgA6ABIAR1R4fICELIiMkJSZZTlNPcGVyYW5kXk5TU2VsZWN0b3JOYW1lXxAQTlNFeHByZXNzaW9uVHlwZVtOU0FyZ3VtZW50c4AGgAUQA4AIgA1cdmFsdWVGb3JLZXk60iALDCmAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy0vMFxOU0V4cHJlc3Npb25YTlNPYmplY3TSEAsyNKEzgAmADNMLIDY3ODlZTlNLZXlQYXRogAsQCoAKXWlucHV0RnVsbFBhdGjSKyw8PV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPC8w0issP0BeTlNNdXRhYmxlQXJyYXmjP0EwV05TQXJyYXnSKyxDRF8QE05TS2V5UGF0aEV4cHJlc3Npb26kQ0UvMF8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00cgC0hJSl8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEFhzamQtY29yZdIrLE1OXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNNLzDUC1BRUlNJJFRaTlNNb2RpZmllcldOU0ZsYWdzXk5TT3BlcmF0b3JUeXBlgBIQY9IrLFZXXxAVTlNJblByZWRpY2F0ZU9wZXJhdG9yo1ZYMF8QE05TUHJlZGljYXRlT3BlcmF0b3LSKyxaW18QFU5TQ29tcGFyaXNvblByZWRpY2F0ZaNaXDBbTlNQcmVkaWNhdGXUCxYXGBlfYGGAE4AZgBWAG9UeHyAhCyIjJGUmgAaABYAWgA3SEAtoNKFpgBeADNMLIDY3OG2AC4AYXWlucHV0RmlsZW5hbWXTRyALcElKgBqAEFZhcHAuanPUC1BRUlNJJFSAEtIrLEF2okEw0isseHlfEBNOU0NvbXBvdW5kUHJlZGljYXRlo3hcMF8QD05TS2V5ZWRBcmNoaXZlctF8fVRyb290gAEACAARABoAIwAtADIANwBYAF4AZQB\/AJEAmACaAJwAngCjAK4AsQCzALUAtwDAANQA5wD9AP8BAQEDAQUBEAEaASkBPAFIAUoBTAFOAVABUgFfAWQBZgFrAXYBfwGSAZYBowGsAbEBswG1AbcBvgHIAcoBzAHOAdwB4QIAAgQCCQIYAhwCJAIpAj8CRAJbAmICdAJ2AngCegKDAogCpAKoArECvALEAtMC1QLXAtwC9AL4Aw4DEwMrAy8DOwNEA0YDSANKA0wDVwNZA1sDXQNfA2QDZgNoA2oDcQNzA3UDgwOKA4wDjgOVA54DoAOlA6gDrQPDA8cD2QPcA+EAAAAAAAACAQAAAAAAAAB+AAAAAAAAAAAAAAAAAAAD4w==",
 		"runOrder": 0,
@@ -247,7 +250,7 @@
 	"displayValue": "sjd-core",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-obama",
-	"lastBuiltDate": 511135027
+	"lastBuiltDate": 511412524
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -919,6 +922,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1398,6 +1405,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -1998,7 +2009,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2091,7 +2103,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
